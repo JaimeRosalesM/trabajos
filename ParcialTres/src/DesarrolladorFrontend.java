@@ -1,5 +1,5 @@
 
-public class DesarrolladorFrontend {
+public class DesarrolladorFrontend extends Empleado implements OperacionEmpleado {
 
 	private int aniosExperienciaBoo;
 	private boolean experienciaCloud;
@@ -35,5 +35,11 @@ private double Aumento=3;
 
 public  void OperacionEmpleado() {
 
+}
+
+@Override
+public void devolverSalario() {
+	// TODO Auto-generated method stub
+	
 }
 }

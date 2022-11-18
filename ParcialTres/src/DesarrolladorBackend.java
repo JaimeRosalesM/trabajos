@@ -1,5 +1,5 @@
 
-public class DesarrolladorBackend {
+public class DesarrolladorBackend implements OperacionEmpleado {
 
 	private String Skill;
 	private String ListaLenguajes;
@@ -32,6 +32,12 @@ public class DesarrolladorBackend {
 	
 	public void OperacionEmpleado() {
 
+	}
+
+	@Override
+	public void devolverSalario() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 
